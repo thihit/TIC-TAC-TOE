@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Press start 2P", cursive;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #002b0c
+}
+
+h1{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.stage{
+text-align: center;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    grid-template-rows: repeat(3,80px);
+    gap: 8px;
+    justify-content: center;
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    color: #00ff00;
+    background-color: #000;
+    border: 4px solid #00ff00;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.square:hover{
+    background-color: #003300;
+}
+
+.o{
+position: relative;
+}
+
+.o::after{
+    content: "o";
+  
+    
+}
+
+.x{
+    position: relative;
+    }
+    
+.x::after{
+content: "x";
+}
+
+
+
+#restart-button{
+ margin-top: 20px;
+ padding: 10px 20px;
+ font-family: "Press Start 2P";
+ background-color: #000;
+ color: #00ff00;
+ border: 3px solid #00ff00;
+ cursor: pointer;
+ font-size: 12px;
+}
+
+#restart-button:hover{
+    background-color: #003300;
+}
+
