@@ -1,5 +1,7 @@
 # Tic-Tac-Toe Game 🎯
 
+Play here: https://thihit.github.io/TIC-TAC-TOE/
+
 ## Description
 
 This is a simple and responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play against a friend locally and enjoy the classic game experience directly in your browser. The game features a clean, modern design with smooth interactions and an intuitive interface.
